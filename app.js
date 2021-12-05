@@ -1,13 +1,12 @@
 const express = require('express')
-const port = process.env.PORT || 3000
+const port = 3000
 const app = express()
 
-
-app.use(express.json()) // for parsing application/json
-app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
-
-app.get('/', function (req, res, next) {
-  res.json(req.headers)
+app.get('/paczki', (req, res) =>{
+    console.log('coś tu przyszło')
+})
+app.get('/manifest', function (req, res, next) {
+  res.download('/Users/pawelcieslak/Documents/Dokumenty — MacBook Air (Paweł)/kody/nodzik/manifestPaczki.xml')  
 })
 
 app.listen(port)
