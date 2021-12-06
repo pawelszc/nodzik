@@ -7,7 +7,7 @@ app.get('/paczki', (req, res) =>{
 })
 app.get('/manifest', function (req, res, next) {
   res.download(__dirname + '/manifestPaczki.xml')
-  console.log(req.headers)  
+  console.log(req.baseUrl, req.headers , req.params , req.body)  
 })
 
 app.listen(port)
