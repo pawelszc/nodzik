@@ -6,7 +6,8 @@ app.get('/paczki', (req, res) =>{
     console.log('coś tu przyszło')
 })
 app.get('/manifest', function (req, res, next) {
-  res.download('/Users/pawelcieslak/Documents/Dokumenty — MacBook Air (Paweł)/kody/nodzik/manifestPaczki.xml')  
+  res.download(__dirname + '/manifestPaczki.xml')  
 })
 
 app.listen(port)
+console.log(__dirname)
