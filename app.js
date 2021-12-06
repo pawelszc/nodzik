@@ -3,7 +3,8 @@ const express = require('express')
 const port = 3000
 const app = express()
 const manifest = 
-app.get('/paczki', (req, res) =>{
+app.get('/', (req, res) => {
+    console.log(req.body)
     console.log('coś tu przyszło')
 })
 app.get('/manifest', function (req, res, next) {
