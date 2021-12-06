@@ -6,8 +6,8 @@ app.get('/paczki', (req, res) =>{
     console.log('coś tu przyszło')
 })
 app.get('/manifest', function (req, res, next) {
-  res.download(__dirname + '/manifestPaczki.xml')  
+  res.download(__dirname + '/manifestPaczki.xml')
+  console.log(req.headers)  
 })
 
 app.listen(port)
-console.log(__dirname)
