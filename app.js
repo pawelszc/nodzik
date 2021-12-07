@@ -14,5 +14,8 @@ app.get('/manifest', function (req, res, next) {
   console.log('2:' + JSON.stringify(req.params))
   console.log('3:' + JSON.stringify(req.body)) 
 })
+app.get('/paczki', (req, res){
+    res.send('<html><body><p>Joł joł joł tu tede</p></body></html>')
+})
 
 app.listen(port)
