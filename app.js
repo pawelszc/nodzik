@@ -4,8 +4,8 @@ const port = 3000
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send(req.body, req, req.headers)
-    console.log('coś tu przyszło')
+    res.send('to jest zwykły tekst od res.send()')
+    console.log(req.body)
 })
 
 app.get('/manifest', function (req, res, next) {
