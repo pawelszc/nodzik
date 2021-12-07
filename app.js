@@ -2,9 +2,12 @@ const { json } = require('express')
 const express = require('express')
 const port = 3000
 const app = express()
+app.use(express.json()) // for parsing application/json
+app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
 app.get('/', (req, res) => {
     res.send('to jest zwykły tekst od res.send()')
+    res.json(req.body)
     console.log(req.body)
 })
 
