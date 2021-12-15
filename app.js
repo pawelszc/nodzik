@@ -15,6 +15,9 @@ app.get('/checker', (req, res) => {
 app.get('/', (req, res) => {
     res.send(req.body)})
 
+app.post('/', (req, res) => {
+      res.send(req.body)})    
+
 app.get('/manifest', function (req, res, next) {
   res.download(__dirname + '/manifestPaczki.xml')
   console.log('manifest został pobrany')
