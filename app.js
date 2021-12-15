@@ -13,9 +13,7 @@ app.get('/checker', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    res.send('Witaj w mojej apce')
-
-})
+    res.send(req.body)})
 
 app.get('/manifest', function (req, res, next) {
   res.download(__dirname + '/manifestPaczki.xml')
