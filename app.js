@@ -1,14 +1,20 @@
-const { json } = require('express')
 const express = require('express')
 const port = 3000
 const app = express()
-app.use(express.json()) // for parsing application/json
-app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
+const bodyParser = require('body-parser')
+
+app.use(bodyParser.json()) // for parsing application/json
+app.use(bodyParser.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
+
+app.get('/checker', (req, res) => {
+  console.log(req.body)
+  res.send(req.body)
+  
+})
 
 app.get('/', (req, res) => {
-    res.send('to jest zwykły tekst od res.send()')
-    res.json(req.body)
-    console.log(req.body)
+    res.send('Witaj w mojej apce')
+
 })
 
 app.get('/manifest', function (req, res, next) {
@@ -16,8 +22,5 @@ app.get('/manifest', function (req, res, next) {
   console.log('manifest został pobrany')
 })
 
-app.get('/paczki', (req, res) => {
-    res.send('<html><body><p>Joł joł joł tu tede</p></body></html>')
-})
 
 app.listen(port)
