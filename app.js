@@ -18,7 +18,7 @@ console.log(sha1Acces)
 
 
 app.get('/', (req, res)=>{
-  res.send(datka)
+  res.send('sdfsdfsdfsdfsdfsdf' )
 })
 
 app.get('/manifest',  (req, res, next) => {
