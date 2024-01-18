@@ -2,6 +2,7 @@
   "name": "nodzik",
   "version": "1.0.0",
   "main": "app.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,9 +10,19 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "api": "^6.1.1",
     "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "csvtojson": "^2.0.10",
     "express": "^4.17.1",
+    "fast-xml-parser": "^4.3.2",
     "js-sha1": "^0.6.0",
-    "pug": "^3.0.2"
+    "node-fetch": "^3.3.2",
+    "openai": "^4.24.1",
+    "pug": "^3.0.2",
+    "puppeteer": "^21.6.1",
+    "xml-parser": "^1.2.1",
+    "xmlbuilder": "^15.1.1",
+    "xmlbuilder2": "^3.1.1"
   }
 }

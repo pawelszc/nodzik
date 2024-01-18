@@ -1,0 +1,296 @@
+[
+  {
+    "vat": "DE347387545",
+    "name": "Bavarian Krauts",
+    "invoice": "INV-PL-6290575-2023-796",
+    "date": "31-12-2023",
+    "amount": "229,73"
+  },
+  {
+    "vat": "DE294232469",
+    "name": "Melanie Zach",
+    "invoice": "INV-PL-6290575-2023-795",
+    "date": "29-12-2023",
+    "amount": "214,72"
+  },
+  {
+    "vat": "ATU67291646",
+    "name": "Bergbahnen DachsteinWest GmbH",
+    "invoice": "CN-PL-6290575-2023-46",
+    "date": "29-12-2023",
+    "amount": "-148,74"
+  },
+  {
+    "vat": "DE318679863",
+    "name": "Bastian Minx",
+    "invoice": "INV-PL-6290575-2023-793",
+    "date": "28-12-2023",
+    "amount": "284,62"
+  },
+  {
+    "vat": "DE340232564",
+    "name": "UAB KATARATA",
+    "invoice": "INV-PL-6290575-2023-788",
+    "date": "27-12-2023",
+    "amount": "138,64"
+  },
+  {
+    "vat": "ATU49347201",
+    "name": "Werner Tacer",
+    "invoice": "INV-PL-6290575-2023-789",
+    "date": "27-12-2023",
+    "amount": "149,41"
+  },
+  {
+    "vat": "DE145554463",
+    "name": "Staufen Baumaschinen GmbH",
+    "invoice": "INV-PL-6290575-2023-792",
+    "date": "27-12-2023",
+    "amount": "105,77"
+  },
+  {
+    "vat": "DE230710662",
+    "name": "Hainz Grundstücks GbR",
+    "invoice": "INV-PL-6290575-2023-791",
+    "date": "27-12-2023",
+    "amount": "127,7"
+  },
+  {
+    "vat": "ATU68718809",
+    "name": "Pult Hotel GmbH",
+    "invoice": "INV-PL-6290575-2023-787",
+    "date": "22-12-2023",
+    "amount": "124,52"
+  },
+  {
+    "vat": "DE120342950",
+    "name": "Roy Richter",
+    "invoice": "INV-PL-6290575-2023-785",
+    "date": "21-12-2023",
+    "amount": "98,41"
+  },
+  {
+    "vat": "DE142816902",
+    "name": "Eberhard Scheidel",
+    "invoice": "INV-PL-6290575-2023-784",
+    "date": "20-12-2023",
+    "amount": "105,7"
+  },
+  {
+    "vat": "DE150945130",
+    "name": "Stadtverwaltung Suhl",
+    "invoice": "INV-PL-6290575-2023-783",
+    "date": "20-12-2023",
+    "amount": "215,04"
+  },
+  {
+    "vat": "DE252221699",
+    "name": "Fressnapf Stuttgart-Wangen",
+    "invoice": "INV-PL-6290575-2023-782",
+    "date": "19-12-2023",
+    "amount": "213,64"
+  },
+  {
+    "vat": "DE113139315",
+    "name": "Bathildisheim e.V.",
+    "invoice": "INV-PL-6290575-2023-781",
+    "date": "19-12-2023",
+    "amount": "430,85"
+  },
+  {
+    "vat": "DE123503110",
+    "name": "Jana Voth",
+    "invoice": "INV-PL-6290575-2023-778",
+    "date": "18-12-2023",
+    "amount": "228,29"
+  },
+  {
+    "vat": "DE323459734",
+    "name": "Julian Krause",
+    "invoice": "INV-PL-6290575-2023-780",
+    "date": "18-12-2023",
+    "amount": "116,95"
+  },
+  {
+    "vat": "DE209899183",
+    "name": "Burim Kurti",
+    "invoice": "INV-PL-6290575-2023-776",
+    "date": "18-12-2023",
+    "amount": "684,36"
+  },
+  {
+    "vat": "DE223337737",
+    "name": "Frank Pistorius",
+    "invoice": "INV-PL-6290575-2023-777",
+    "date": "18-12-2023",
+    "amount": "67,48"
+  },
+  {
+    "vat": "DE206360973",
+    "name": "IBS Ingenieurgesellschaft mbH",
+    "invoice": "INV-PL-6290575-2023-775",
+    "date": "14-12-2023",
+    "amount": "67,75"
+  },
+  {
+    "vat": "ATU67291646",
+    "name": "Johanna Schwarzenbacher",
+    "invoice": "INV-PL-6290575-2023-773",
+    "date": "13-12-2023",
+    "amount": "149,32"
+  },
+  {
+    "vat": "DE310529946",
+    "name": "Jonas Werner",
+    "invoice": "INV-PL-6290575-2023-774",
+    "date": "13-12-2023",
+    "amount": "127,35"
+  },
+  {
+    "vat": "ATU73451613",
+    "name": "Malesevic Marinko",
+    "invoice": "INV-PL-6290575-2023-772",
+    "date": "11-12-2023",
+    "amount": "459,43"
+  },
+  {
+    "vat": "DE354844945",
+    "name": "Jedrzej Jasinski",
+    "invoice": "INV-PL-6290575-2023-771",
+    "date": "11-12-2023",
+    "amount": "214,55"
+  },
+  {
+    "vat": "DE253262946",
+    "name": "David Ziolkowski & Rene Wilczek GbR",
+    "invoice": "CN-PL-6290575-2023-45",
+    "date": "10-12-2023",
+    "amount": "-80,38"
+  },
+  {
+    "vat": "DE815350339",
+    "name": "TeKa Food GmbH",
+    "invoice": "INV-PL-6290575-2023-767",
+    "date": "08-12-2023",
+    "amount": "382,15"
+  },
+  {
+    "vat": "DE156210560",
+    "name": "Markus Hofmeister",
+    "invoice": "INV-PL-6290575-2023-768",
+    "date": "08-12-2023",
+    "amount": "215,19"
+  },
+  {
+    "vat": "DE198193465",
+    "name": "Brauereigasthof Alte Post",
+    "invoice": "INV-PL-6290575-2023-770",
+    "date": "08-12-2023",
+    "amount": "131,02"
+  },
+  {
+    "vat": "DE813376687",
+    "name": "Celine Sawetzki",
+    "invoice": "INV-PL-6290575-2023-769",
+    "date": "08-12-2023",
+    "amount": "254,77"
+  },
+  {
+    "vat": "DE253262946",
+    "name": "David Ziolkowski & Rene Wilczek GbR",
+    "invoice": "CN-PL-6290575-2023-44",
+    "date": "08-12-2023",
+    "amount": "-98,99"
+  },
+  {
+    "vat": "DE149461045",
+    "name": "Paul Hlubek",
+    "invoice": "INV-PL-6290575-2023-766",
+    "date": "07-12-2023",
+    "amount": "123,32"
+  },
+  {
+    "vat": "DE284087782",
+    "name": "Steffen Wörsdörfer",
+    "invoice": "INV-PL-6290575-2023-765",
+    "date": "07-12-2023",
+    "amount": "65,23"
+  },
+  {
+    "vat": "ATU67291646",
+    "name": "Bergbahnen DachsteinWest GmbH",
+    "invoice": "INV-PL-6290575-2023-760",
+    "date": "06-12-2023",
+    "amount": "148,74"
+  },
+  {
+    "vat": "DE123503110",
+    "name": "Jana Voth",
+    "invoice": "INV-PL-6290575-2023-761",
+    "date": "06-12-2023",
+    "amount": "228,83"
+  },
+  {
+    "vat": "DE815806503",
+    "name": "Sandra Landsmann",
+    "invoice": "INV-PL-6290575-2023-764",
+    "date": "06-12-2023",
+    "amount": "421,36"
+  },
+  {
+    "vat": "DE811218811",
+    "name": "Beiten Burkhardt Rechtsanwaltsgesellschaft mbH",
+    "invoice": "INV-PL-6290575-2023-763",
+    "date": "06-12-2023",
+    "amount": "228,83"
+  },
+  {
+    "vat": "IT01614920468",
+    "name": "DEL CARLO LERI",
+    "invoice": "INV-PL-6290575-2023-762",
+    "date": "06-12-2023",
+    "amount": "211,37"
+  },
+  {
+    "vat": "DE287788939",
+    "name": "Dominik Starke",
+    "invoice": "INV-PL-6290575-2023-759",
+    "date": "05-12-2023",
+    "amount": "656,32"
+  },
+  {
+    "vat": "DE263251715",
+    "name": "KFZ-STEPHAN GmbH",
+    "invoice": "INV-PL-6290575-2023-754",
+    "date": "04-12-2023",
+    "amount": "430,65"
+  },
+  {
+    "vat": "ATU75927115",
+    "name": "Josef u. Maria Spiegl KG",
+    "invoice": "INV-PL-6290575-2023-756",
+    "date": "04-12-2023",
+    "amount": "237,04"
+  },
+  {
+    "vat": "DE227499354",
+    "name": "Hahn Airport Inn e.K.",
+    "invoice": "INV-PL-6290575-2023-757",
+    "date": "04-12-2023",
+    "amount": "116,94"
+  },
+  {
+    "vat": "ATU75476815",
+    "name": "Scherrerbauer Haustechnik GmbH",
+    "invoice": "INV-PL-6290575-2023-755",
+    "date": "04-12-2023",
+    "amount": "368,5"
+  },
+  {
+    "vat": "DE130799256",
+    "name": "Elektro Heldele GmbH",
+    "invoice": "INV-PL-6290575-2023-752",
+    "date": "01-12-2023",
+    "amount": "69,24"
+  }
+]

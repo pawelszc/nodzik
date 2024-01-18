@@ -1,0 +1,28 @@
+
+    {
+      "ident": {
+        "identType": "codeExtern",
+        "identValue": "eddeded"
+      },
+      "sizes": [
+        {
+          "ident": {
+            "identType": "codeExtern",
+            "identValue": "dededed"
+          },
+          "quantity": {
+            "stocks": [
+              {
+                "stock_id": 0,
+                "quantity_operation": {
+                  "operation": "set",
+                  "quantity": 100
+                }
+                
+              } 
+            ]
+          }
+        }
+      ]
+    }
+  

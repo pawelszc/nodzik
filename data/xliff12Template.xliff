@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file original="translations.xliff" xml:space="preserve" source-language="pol" target-language="fre">
+    <body>
+    <group>
+				<trans-unit id=" na instagramie">
+					<source>
+						na instagramie
+					</source>
+					<target>
+						auf Instagram
+					</target>
+				</trans-unit>
+				<trans-unit id=" na polanie">
+					<source>
+						na polanie
+					</source>
+					<target>
+						auf polana
+					</target>
+				</trans-unit>
+                </group>
+                </body>
+    </file>
+    </xliff>

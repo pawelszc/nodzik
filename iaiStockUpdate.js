@@ -1,0 +1,228 @@
+let data = require('./data/iaiUpdateTemplate.json')
+const csv = `ID,quantity
+MXPUDE,2121
+MX9167,380
+MX9160,770
+MX9158SL ,1098
+MX9158BL,392
+MX9157SL,273
+MX9157BL,635
+MX9148,2014
+MX9147,2046
+MX9146,853
+MX9051A,102
+MX8890,240
+MX7640,1540
+MX7509,466
+MX7411,207
+MX7409,452
+MX7408,560
+MX7407,401
+MX7394,105
+MX6044,150
+MX6043,91
+MX4543BL  ,931
+MX4540BL,114
+MX4540,626
+MX4030WH,465
+MX4030GY,425
+MX4029WH,409
+MX4029GY,282
+MX4028WH,444
+MX4028GY,220
+MX4027WH,399
+MX4027GY,1182
+MX4027BL,950
+MX4024WH,306
+MX4023,372
+MX4019BL,69
+MX4014,342
+MX4007  ,870
+MX4006GR,92
+MX3131,965
+MX3130,2075
+MX3129,2439
+MX3128GY,76
+MX3128CR,59
+MX3127GY,105
+MX3127CR,44
+MX3126 ,597
+MX3123 ,568
+MX3122 ,947
+MX3121 ,1993
+MX3120 ,416
+MX3116   ,287
+MX3115   ,284
+MX3110   ,129
+MX3102   ,53
+MX3096,172
+MX3092   ,853
+MX3091  ,390
+MX3090  ,375
+MX3089  ,798
+MX3082  ,77
+MX3081  ,62
+MX3074  ,147
+MX3071   ,112
+MX3070   ,490
+MX3067 ,43
+MX3055    ,241
+MX3047   ,128
+MX3039  ,100
+MX3037  ,137
+MX3036   ,132
+MX3033   ,105
+MX3023  ,867
+MX3022   ,1225
+MX3021   ,224
+MX3020   ,174
+MX3016WH,163
+MX3016BL,861
+MX3016   ,425
+MX3010   ,577
+MX3009BL,258
+MX3009   ,716
+MX3005  ,272
+MX3003   ,326
+MX2745,4896
+MX2095,89
+MX2094,103
+MX2088BL,161
+MX2083WH ,97
+MX2083BL,111
+MX2082WH,51
+MX2081BL,177
+MX2076SL,377
+MX2076BL,414
+MX2075SL,309
+MX2075BL,304
+MX2069,118
+MX2068,100
+MX2062,558
+MX2061,63
+MX2059,162
+MX2047,477
+MX2046,171
+MX2041,405
+MX2021,212
+MX1625WH,297
+MX1625CR,244
+MX1625BL,45
+MX1624WH,314
+MX1624CR,272
+MX1624BL,226
+MX1623,711
+MX1622,559
+MX1615,740
+MX1614CR,1312
+MX1614BL,1444
+MX1613CR,328
+MX1613BL,243
+MX1612CR,171
+MX1612BL,235
+MX1611,64
+MX1605RE ,37
+MX1602WH,824
+MX1602PR  ,223
+MX1602CR ,234
+MX1602BL ,394
+MX1406,196
+MX1283WH   ,180
+MX1283GR,124
+MX1283BLU,125
+MX1276PR,52
+MX1276BU,34
+MX1110   ,812
+MX1027PX   ,722
+MX1009  ,63
+MX0968,68
+MX0967,96
+MX0966,109
+MX0964,251
+MX0963,31
+MX0962,161
+MX0961,252
+MX0960WH,769
+MX0939,205
+MX0938,505
+MX0937 ,53
+MX0936   ,499
+MX0920 ,268
+MX0918  ,320
+MX0897WH  ,82
+MX0874  ,119
+MX0872  ,98
+MX0850   ,38
+MX0846   ,67
+MX0777  ,4122
+MX0686BL  ,1559
+MX0686,477
+MX0292   ,358
+MX0291   ,312
+MX0250CB,40
+MX0204/WMOP,1240
+MX0140  ,457
+MX0139  ,1987
+MX0138  ,425
+MX0124  ,540
+MX0118   ,2247
+MX0110  ,1530
+MX0109,2340
+MX0108 ,2029
+MX0107  ,1688
+MX0094   ,409
+MX0045,525
+MX0042,676
+MX0041,1177
+MX0030,288
+MX0027CL,1583
+MX0027,1076
+MX0024A,711
+MB-30507,38
+MB-30506,44
+MB-30505,43
+"LID 1,5L  ",334
+LID 1 L  ,1305
+
+`
+let nowyObiekt 
+let funk = function (arr) {
+    let obj = data
+    obj.ident.identValue = arr[0]
+    obj.sizes[0].quantity.stocks[0].quantity = arr[1]
+    return obj
+
+}
+let trim = csv.replace(/ /g, "")
+const rows = trim.split('\n');
+const twoDimensionalArray = rows.map(row => row.split(','));
+const final = twoDimensionalArray.map(item=>{
+    const obj = {
+        "ident": {
+          "identType": "codeExtern",
+          "identValue": item[0]
+        },
+        "sizes": [
+          {
+            "ident": {
+              "identType": "codeExtern",
+              "identValue": item[0]
+            },
+            "quantity": {
+              "stocks": [
+                {
+                  "stock_id": 0,
+                  "quantity_operation": {
+                    "operation": "set",
+                    "quantity": item[1]
+                  }
+                  
+                } 
+              ]
+            }
+          }
+        ]
+      }
+    return obj
+})
+//console.log(JSON.stringify(final))
